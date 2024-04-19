@@ -2,14 +2,14 @@
 # Makefile Options
 # ----------------------------
 
-NAME = DEMO
+NAME = GRID
 ICON = icon.png
-DESCRIPTION = "CE C Toolchain Demo"
+DESCRIPTION = "A Digital Frontier"
 COMPRESSED = NO
 ARCHIVED = NO
 
 CFLAGS = -Wall -Wextra -Oz
-CXXFLAGS = -Wall -Wextra -Oz
+CXXFLAGS = -Wall -Wextra -Oz -std=c++17
 
 # ----------------------------
 
